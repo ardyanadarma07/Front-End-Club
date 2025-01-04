@@ -579,6 +579,14 @@ video {
   margin-bottom: 100px;
 }
 
+.mb-\[31\.5px\] {
+  margin-bottom: 31.5px;
+}
+
+.mb-\[66\.5px\] {
+  margin-bottom: 66.5px;
+}
+
 .mt-16 {
   margin-top: 4rem;
 }
@@ -587,68 +595,8 @@ video {
   margin-top: 100px;
 }
 
-.mb-\[80px\] {
-  margin-bottom: 80px;
-}
-
-.mb-\[75px\] {
-  margin-bottom: 75px;
-}
-
-.mb-\[74px\] {
-  margin-bottom: 74px;
-}
-
-.mb-\[73px\] {
-  margin-bottom: 73px;
-}
-
-.mb-\[70px\] {
-  margin-bottom: 70px;
-}
-
-.mb-\[px\] {
-  margin-bottom: px;
-}
-
-.mb-\[65px\] {
-  margin-bottom: 65px;
-}
-
-.mb-\[66px\] {
-  margin-bottom: 66px;
-}
-
-.mb-\[67px\] {
-  margin-bottom: 67px;
-}
-
-.mb-\[66\.5px\] {
-  margin-bottom: 66.5px;
-}
-
-.mb-\[50px\] {
-  margin-bottom: 50px;
-}
-
-.mb-\[45px\] {
-  margin-bottom: 45px;
-}
-
-.mb-\[40px\] {
-  margin-bottom: 40px;
-}
-
-.mb-\[30px\] {
-  margin-bottom: 30px;
-}
-
-.mb-\[32px\] {
-  margin-bottom: 32px;
-}
-
-.mb-\[31\.5px\] {
-  margin-bottom: 31.5px;
+.mb-\[60px\] {
+  margin-bottom: 60px;
 }
 
 .inline-block {
@@ -712,6 +660,14 @@ video {
   width: auto;
 }
 
+.w-\[\] {
+  width: ;
+}
+
+.w-\[340px\] {
+  width: 340px;
+}
+
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
@@ -748,6 +704,26 @@ video {
   gap: 2.25rem;
 }
 
+.gap-8 {
+  gap: 2rem;
+}
+
+.gap-\[32px\] {
+  gap: 32px;
+}
+
+.gap-y-8 {
+  row-gap: 2rem;
+}
+
+.gap-y-\[32px\] {
+  row-gap: 32px;
+}
+
+.gap-y-\[500px\] {
+  row-gap: 500px;
+}
+
 .rounded-full {
   border-radius: 9999px;
 }
@@ -775,6 +751,10 @@ video {
 
 .border-r {
   border-right-width: 1px;
+}
+
+.border-none {
+  border-style: none;
 }
 
 .border-gray {
@@ -850,6 +830,11 @@ video {
   padding-bottom: 30px;
 }
 
+.py-\[150px\] {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
 .text-center {
   text-align: center;
 }
@@ -892,6 +877,10 @@ video {
   font-weight: 500;
 }
 
+.font-\[35px\] {
+  font-weight: 35px;
+}
+
 .leading-loose {
   line-height: 2;
 }
@@ -931,10 +920,6 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.hover\:transform:hover {
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
 .hover\:rounded-md:hover {
   border-radius: 0.375rem;
 }
@@ -953,9 +938,9 @@ video {
   background-color: rgb(245 56 56 / var(--tw-bg-opacity, 1));
 }
 
-.hover\:text-white:hover {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+.hover\:bg-white:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
 .hover\:text-primary:hover {
@@ -963,7 +948,7 @@ video {
   color: rgb(245 56 56 / var(--tw-text-opacity, 1));
 }
 
-.group:hover .group-hover\:text-white {
+.hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
